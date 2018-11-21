@@ -1,0 +1,42 @@
+.body {
+  display: flex;
+  flex: 10;
+  background-color: rgba(35, 40, 45, 0.9);
+  color: #f1f1f1;
+}
+
+.content__body {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.8em;
+  line-height: 1.85em;
+}
+.content {
+  flex: 1;
+  padding: 12px 15px 12px 15px;
+  overflow: auto;
+}
+.content__subheader {
+  max-width: 600px;
+  padding: 5px 0px 0px 0px;
+  line-height: 35px;
+}
+
+.content__subheader h2 span {
+  padding: 5px 0px 5px 0px;
+  border-bottom: 3px solid rgb(168, 63, 2);
+}
+
+.content__image {
+  flex: 1;
+}
+
+@media only screen and (min-width: 1200px) {
+  .content__head {
+    max-width: 1000px;
+  }
+  .content__body {
+    max-width: 1000px;
+  }
+}

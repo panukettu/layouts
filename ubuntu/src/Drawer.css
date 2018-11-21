@@ -1,0 +1,48 @@
+.drawer {
+  position: fixed;
+  width: 0;
+  transition: 0.3s all ease-in;
+  transition-timing-function: cubic-bezier(0.25, 0.82, 0.165, 1.6);
+  background-color: #32373c;
+  flex-direction: column;
+}
+
+.drawer-visible {
+  width: 50%;
+}
+
+.drawer__head {
+  font-family: 'Pacifico', cursive;
+  padding: 10px;
+  color: #f1f1f1;
+  font-size: 1.25em;
+  text-align: center;
+  margin: 5px;
+}
+
+.drawer__body {
+  font-family: 'Josefin Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  overflow: auto;
+  height: 91vh;
+}
+
+.drawer .menu__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1a1c1f;
+
+  min-height: calc(100vh * 0.05);
+  padding: 5px 5px 5px 10px;
+  box-shadow: 2px 2px 9px 2px black;
+  color: #f1f1f1;
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid rgba(0, 0, 0, 0.65);
+  margin: 5px 0px 5px 0px;
+  text-align: center;
+  overflow: hidden;
+}
