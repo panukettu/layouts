@@ -1,6 +1,6 @@
 # Mobile
 
-![alt text](https://github.com/panukettu/layouts/blob/master/ubuntu/mobile.png)
+![alt text](https://github.com/panukettu/layouts/blob/master/ubuntu/phone.png)
 
 # Tablet
 
